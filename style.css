@@ -1,0 +1,198 @@
+.background-1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/bg-9.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.meteor {
+  font-size: 40px;
+  font-family: "Mea Culpa", cursive;
+  font-weight: bold;
+}
+.navbar {
+  font-weight: bold;
+  font-family: "Patua One", cursive;
+}
+.intro {
+  margin-top: 120px;
+}
+.metero-2 {
+  font-weight: bold;
+}
+.btn-1 {
+  border-radius: 20px;
+}
+.btn-1:hover {
+  background-color: yellow;
+  color: black;
+}
+.second-part {
+  background-color: white;
+}
+.sub-heading {
+  font-weight: bold;
+}
+#first-icon {
+  width: 30px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.boxes {
+  box-shadow: 5px 10px 8px #888888;
+  width: 100%;
+  height: 250px;
+}
+.bg-part-three {
+  width: 100%;
+  height: 70vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+    url(images/electricity-4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#food-1 {
+  width: 180px;
+  height: 150px;
+  position: relative;
+  left: 160px;
+  top: 59px;
+}
+#food-2 {
+  width: 180px;
+  height: 150px;
+  position: relative;
+  left: 50px;
+  z-index: 1;
+}
+#food-3 {
+  width: 180px;
+  height: 150px;
+  position: relative;
+  left: 200px;
+  bottom: 90px;
+}
+.portfolio-img {
+  width: 100%;
+  height: 200px;
+}
+.border {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+.bg-blogs {
+  background-color: rgb(195, 238, 131);
+}
+.fast-food {
+  width: 120%;
+  height: 450px;
+  background-image: url("images/salad.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.glasses {
+  width: 100%;
+  height: 218px;
+  background-image: url("images/galasses.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.alone-person {
+  width: 100%;
+  height: 218px;
+  background-image: url("images/alone\ person.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-patti-1 {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+}
+.text-patti-2 {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+}
+.card-setting {
+  width: 100%;
+  height: 120px;
+}
+.contact-section {
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
+    url(images/califourina.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.input-form {
+  opacity: 0.2;
+}
+.bg-card {
+  background-color: rgb(194, 193, 193);
+}
+/* section_One */
+@media (max-width: 350px) {
+  .intro {
+    font-size: 5px;
+  }
+  .metero-2 {
+    font-size: 5px;
+  }
+  .meteor{
+      font-size: 5px;
+  }
+}
+/* section_Three */
+@media (max-width: 400px) {
+  .text-handal{
+      font-size: 5px;
+  }
+  .btn-1{
+      font-size: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .text-handal {
+    font-size: 10px;
+  }
+  .text-handal-1 {
+    font-size: 10px;
+  }
+  #food-1 {
+    width: 80px;
+    height: 80px;
+  }
+  #food-2 {
+    width: 80px;
+    height: 80px;
+    left: 100px;
+  }
+  #food-3 {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .card-setting {
+    font-size: 10px;
+    height: 200px;
+  }
+}
+.down {
+  margin-top: 100px;
+}
+
+@media (max-width: 800px) {
+}
